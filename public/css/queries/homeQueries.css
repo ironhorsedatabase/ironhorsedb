@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@media (min-width: 700px) {
+	.pinned-team {padding: 3rem;}
+	.my-teams-teams {
+		margin-top: 1rem;
+		margin-left: 1.5rem;
+		margin-right: 1.5rem;
+	}
+	
+}

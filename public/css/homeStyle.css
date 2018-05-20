@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+/* ----- NAV ----- */
+.navbar-brand img {
+	width: 2rem;
+	margin-right: 1rem;
+}
+
+/* ----- BUTTONS ----- */
+.btn-nav { 
+  color: #FFFFFF; 
+  background-color: #EB9532; 
+  border-color: #EB9532; 
+} 
+ 
+.btn-nav:hover, 
+.btn-nav:focus, 
+.btn-nav:active, 
+.btn-nav.active, 
+.open .dropdown-toggle.btn-nav { 
+  color: #FFFFFF; 
+  background-color: #E08319; 
+  border-color: #EB9532; 
+} 
+ 
+.btn-nav:active, 
+.btn-nav.active, 
+.open .dropdown-toggle.btn-nav { 
+  background-image: none; 
+} 
+ 
+.btn-nav.disabled, 
+.btn-nav[disabled], 
+fieldset[disabled] .btn-nav, 
+.btn-nav.disabled:hover, 
+.btn-nav[disabled]:hover, 
+fieldset[disabled] .btn-nav:hover, 
+.btn-nav.disabled:focus, 
+.btn-nav[disabled]:focus, 
+fieldset[disabled] .btn-nav:focus, 
+.btn-nav.disabled:active, 
+.btn-nav[disabled]:active, 
+fieldset[disabled] .btn-nav:active, 
+.btn-nav.disabled.active, 
+.btn-nav[disabled].active, 
+fieldset[disabled] .btn-nav.active { 
+  background-color: #EB9532; 
+  border-color: #EB9532; 
+} 
+ 
+.btn-nav .badge { 
+  color: #EB9532; 
+  background-color: #FFFFFF; 
+}
+
+
+
+/* ----- REUSABLE  ----- */
+h2 {
+	text-align: center;
+	margin-bottom: 2rem;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+h2:after {
+	display: block;
+    height: .1rem;
+    background-color: #e67e22;
+    content: " ";
+    width: 5rem;
+    margin: 0 auto;
+    margin-top: .5rem;
+}
+
+
+/* ----- PINNED TEAMS ----- */
+.pinned-team {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/cuse.jpg);
+	background-size: cover;
+    background-position :center;
+    background-attachment: fixed;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+   
+    
+   
+}
+.pinned-team  h3, .pinned-team h5 {
+	display: inline-block;
+}
+
+
+.pinned-team h2:after {
+	display: block;
+    height: .1rem;
+    background-color: #e67e22;
+    content: " ";
+    width: 5rem;
+    margin: 0 auto;
+    margin-top: .5rem;
+}
+
+.pinned-team h3 {
+	margin-right: 1rem;
+}
+
+.team-region {
+	margin-right: 5rem;
+}
+
+
+
+
+
+
+
+
+
+/* ----- MY TEAMS ----- */
+.my-teams-title{
+	margin-top: 4rem;
+}
+
+.my-teams-title h2{
+	color: #555;
+}
+
+.team {
+	padding-bottom: 1rem;
+}
+
+.my-teams-teams {
+	margin-top: 1rem;
+	margin-left: .5rem;
+	margin-right: .5rem;
+}
+
+.team-card .card-header {
+	padding: 0;
+}
+
+.team-card .card-header .card-title {
+	vertical-align: bottom;
+	margin-bottom: 0;
+	padding-top: 1rem;
+	padding-bottom: .3rem;
+	padding-left: .8rem;
+}
+
+.side-first {
+	border-right: .1rem solid #ccc;
+}
+
+.team-info {
+	list-style: none;
+	padding: 0;
+}
+
+.team-info li {
+	margin-bottom: .7rem;
+}
+
+.roster-info {
+	list-style: none;
+	padding: 0;
+}
+
+.roster-info li{
+	margin-bottom: .2rem;
+}
+
+
+

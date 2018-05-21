@@ -12,12 +12,15 @@
     <h2>Pinned Team</h2>
     	<div class="card bg-light mb-3">
           <div class="card-body">
+            <div class="team-titles">
+            	<h3 class="team-name">Iron Horse 2018</h3>
+        		<h5 class="team-region">DTX</h5>
+        		<h5 class="next-tournament">Towson Autumn Gold</h5>
+        		<i class="fas fa-user"></i>  23
+            </div>
           	<div class="table-responsive">
                 <table class="table table-striped table-bordered table-hover">
                 	<thead>
-                		<h3 class="team-name">Iron Horse 2018</h3>
-                		<h5 class="team-region">DTX</h5>
-                		<h5 class="next-tournament">Towson Autumn Gold</h5>
                 		<tr>
                 			<th>Player Name</th>
                 			<th>Position</th>

@@ -14,3 +14,4 @@ use App\Http\Controllers\PagesController;
 */
 
 Route::get('/', 'PagesController@getIndex');
+Route::get('/teams', 'PagesController@getTeamPage');

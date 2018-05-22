@@ -9,4 +9,8 @@ class PagesController extends Controller
     public function getIndex() {
         return view('pages.welcome');
     }
+    
+    public function getTeamPage() {
+        return view('pages.teamsPage');
+    }
 }

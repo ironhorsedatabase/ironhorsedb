@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" href="/">
   	<img src = "{{ URL::asset('img/IronHorseLacrosse_4C.png') }}">
   	Iron Horse
   </a>
@@ -10,7 +10,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">Teams</a>
+        <a class="nav-link" href="/teams">Teams</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Players</a>

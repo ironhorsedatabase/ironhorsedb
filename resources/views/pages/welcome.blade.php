@@ -1,8 +1,9 @@
 @extends('layouts.main')
 
 @section('stylesheets') 
-<link href="{{ URL::asset('css/homeStyle.css') }}" rel="stylesheet" type="text/css">
 <link href="{{ URL::asset('css/queries/homeQueries.css') }}" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
 @stop
 
 @section('content')

@@ -1,60 +1,4 @@
 @charset "UTF-8";
-
-/* ----- NAV ----- */
-.navbar-brand img {
-	width: 2rem;
-	margin-right: 1rem;
-}
-
-/* ----- BUTTONS ----- */
-.btn-nav { 
-  color: #FFFFFF; 
-  background-color: #EB9532; 
-  border-color: #EB9532; 
-} 
- 
-.btn-nav:hover, 
-.btn-nav:focus, 
-.btn-nav:active, 
-.btn-nav.active, 
-.open .dropdown-toggle.btn-nav { 
-  color: #FFFFFF; 
-  background-color: #E08319; 
-  border-color: #EB9532; 
-} 
- 
-.btn-nav:active, 
-.btn-nav.active, 
-.open .dropdown-toggle.btn-nav { 
-  background-image: none; 
-} 
- 
-.btn-nav.disabled, 
-.btn-nav[disabled], 
-fieldset[disabled] .btn-nav, 
-.btn-nav.disabled:hover, 
-.btn-nav[disabled]:hover, 
-fieldset[disabled] .btn-nav:hover, 
-.btn-nav.disabled:focus, 
-.btn-nav[disabled]:focus, 
-fieldset[disabled] .btn-nav:focus, 
-.btn-nav.disabled:active, 
-.btn-nav[disabled]:active, 
-fieldset[disabled] .btn-nav:active, 
-.btn-nav.disabled.active, 
-.btn-nav[disabled].active, 
-fieldset[disabled] .btn-nav.active { 
-  background-color: #EB9532; 
-  border-color: #EB9532; 
-} 
- 
-.btn-nav .badge { 
-  color: #EB9532; 
-  background-color: #FFFFFF; 
-}
-
-
-
 /* ----- REUSABLE  ----- */
 h2 {
 	text-align: center;
@@ -94,9 +38,6 @@ h2:after {
     background-attachment: fixed;
     padding-top: 3rem;
     padding-bottom: 2rem;
-   
-     
-   
 }
 .pinned-team  h3, .pinned-team h5 {
 	display: inline-block;
@@ -113,15 +54,6 @@ h2:after {
 .next-tournament {
 	margin-right: .5rem;
 }
-
-
-
-
-
-
-
-
-
 
 /* ----- MY TEAMS ----- */
 .my-teams-title{
@@ -175,7 +107,6 @@ h2:after {
 .roster-info li{
 	margin-bottom: .2rem;
 }
-
 
 /* ----- FOOTER ----- */
 
@@ -235,6 +166,58 @@ footer img:hover {
 	filter: none;
 }
 
+/* ----- NAV ----- */
+.navbar-brand img {
+	width: 2rem;
+	margin-right: 1rem;
+}
+
+/* ----- BUTTONS ----- */
+.btn-nav { 
+  color: #FFFFFF; 
+  background-color: #EB9532; 
+  border-color: #EB9532; 
+} 
+ 
+.btn-nav:hover, 
+.btn-nav:focus, 
+.btn-nav:active, 
+.btn-nav.active, 
+.open .dropdown-toggle.btn-nav { 
+  color: #FFFFFF; 
+  background-color: #E08319; 
+  border-color: #EB9532; 
+} 
+ 
+.btn-nav:active, 
+.btn-nav.active, 
+.open .dropdown-toggle.btn-nav { 
+  background-image: none; 
+} 
+ 
+.btn-nav.disabled, 
+.btn-nav[disabled], 
+fieldset[disabled] .btn-nav, 
+.btn-nav.disabled:hover, 
+.btn-nav[disabled]:hover, 
+fieldset[disabled] .btn-nav:hover, 
+.btn-nav.disabled:focus, 
+.btn-nav[disabled]:focus, 
+fieldset[disabled] .btn-nav:focus, 
+.btn-nav.disabled:active, 
+.btn-nav[disabled]:active, 
+fieldset[disabled] .btn-nav:active, 
+.btn-nav.disabled.active, 
+.btn-nav[disabled].active, 
+fieldset[disabled] .btn-nav.active { 
+  background-color: #EB9532; 
+  border-color: #EB9532; 
+} 
+ 
+.btn-nav .badge { 
+  color: #EB9532; 
+  background-color: #FFFFFF; 
+}
 
 
 

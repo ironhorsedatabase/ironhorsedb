@@ -1,4 +1,4 @@
 @extends('layouts.main')
 @section('content')
-  
-@stop
+<h3>hello</h3>
+@stop  

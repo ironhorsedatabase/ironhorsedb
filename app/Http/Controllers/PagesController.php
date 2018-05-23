@@ -13,4 +13,8 @@ class PagesController extends Controller
     public function getTeamPage() {
         return view('pages.teamsPage');
     }
+    
+    public function getOneTeamPage() {
+        return view('pages.oneTeamPage');
+    }
 }

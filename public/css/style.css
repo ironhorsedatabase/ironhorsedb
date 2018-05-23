@@ -102,19 +102,24 @@ h2:after {
 
 /* --------------------------- START TEAMS PAGE --------------------------- */
 
-.teams-page-header{
+.teams-page-header {
 	color: #555;
 	margin-top: 2rem;
 }
 
+.sort-row {
+	margin-top: 2rem;
+	margin-left: 1rem;
+	text-align: right;
+}
 
+.sort-label {
+	margin-right: 1rem;
+}
 
-
-
-
-
-
-
+.sort-select {
+	width: 10rem;
+}
 
 /* --------------------------- END TEAMS PAGE --------------------------- */
 

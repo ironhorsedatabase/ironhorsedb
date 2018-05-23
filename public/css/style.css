@@ -104,17 +104,16 @@ h2:after {
 
 .teams-page-header {
 	color: #555;
-	margin-top: 2rem;
-}
-
-.sort-row {
-	margin-top: 2rem;
-	margin-left: 1rem;
-	text-align: right;
+	margin-top: 1.25rem;
 }
 
 .sort-label {
 	margin-right: 1rem;
+}
+
+.sort-row {
+	margin-top: 1rem;
+	margin-left: 0rem;
 }
 
 .sort-select {

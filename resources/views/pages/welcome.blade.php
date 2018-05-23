@@ -1,9 +1,5 @@
 @extends('layouts.main')
 
-@section('stylesheets') 
-<link href="{{ URL::asset('css/queries/homeQueries.css') }}" rel="stylesheet" type="text/css">
-
-@stop
 
 @section('content')
 

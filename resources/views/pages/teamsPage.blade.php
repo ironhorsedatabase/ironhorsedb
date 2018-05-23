@@ -13,7 +13,7 @@
 		<h2 class="teams-page-header">All Teams</h2>
 	</div>
 </div>
-<div class="row">
+<div class="row team-row">
 	<div class= "col-lg-4 team">
 		<div class= "card bg-light md-3 team-card">
 			 <div class="card-header">
@@ -136,7 +136,7 @@
 	</div>
 </div>	
 
-<div class="row">
+<div class="row team-row">
 	<div class= "col-lg-4 team">
 		<div class= "card bg-light md-3 team-card">
 			 <div class="card-header">
@@ -260,7 +260,7 @@
 </div>	
 
 
-<div class="row">
+<div class="row team-row">
 	<div class= "col-lg-4 team">
 		<div class= "card bg-light md-3 team-card">
 			 <div class="card-header">

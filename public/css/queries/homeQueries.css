@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @media (min-width: 700px) {
+	/* --------------------------- START HOME PAGE --------------------------- */
 	.pinned-team {padding: 3rem;}
 	
 	.pinned-team h3 {
@@ -30,8 +31,21 @@
 		margin-left: auto;
 		margin-right: .5rem;
 	}
-
-
+	/* --------------------------- END HOME PAGE --------------------------- */
 	
 	
+	
+	/* --------------------------- START TEAM PAGE --------------------------- */
+	.sort-row {
+		margin-top: 2rem;
+		margin-left: 1rem;
+	}
+	
+	.team-row {
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+	
+	
+	/* --------------------------- END TEAM PAGE --------------------------- */
 }

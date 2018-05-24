@@ -17,3 +17,4 @@ Route::get('/', 'PagesController@getIndex');
 Route::get('/teams', 'PagesController@getTeamPage');
 Route::get('/team', 'PagesController@getOneTeamPage');
 Route::get('/myteams', 'PagesController@getMyTeamsPage');
+Route::get('/mytournaments', 'PagesController@getMyTournamentsPage');

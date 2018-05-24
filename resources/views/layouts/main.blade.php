@@ -6,7 +6,7 @@
 		<div class="container-fluid">
 			@yield('content')
 		</div>
-		@include('layouts.partials._scripts')
 		@include('layouts.partials._footer')
+		@include('layouts.partials._scripts')
 	</body>
 </html>

@@ -23,8 +23,8 @@
           My Profile
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">My Teams</a>
-          <a class="dropdown-item" href="#">My Tournaments</a>
+          <a class="dropdown-item" href="/myteams">My Teams</a>
+          <a class="dropdown-item" href="/mytournaments">My Tournaments</a>
           <a class="dropdown-item" href="#">My Iteneraries</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Create Team</a>

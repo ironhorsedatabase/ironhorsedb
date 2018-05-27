@@ -25,4 +25,8 @@ class PagesController extends Controller
     public function getMyTournamentsPage() {
         return view('pages.myTournamentsPage');
     }
+    
+    public function getPlayerPage() {
+        return view('pages.playerPage');
+    }
 }

@@ -269,5 +269,10 @@ fieldset[disabled] .btn-nav.active {
   background-color: #FFFFFF; 
 }
 
+/* --------------------------- PLAYER PAGE --------------------------- */
+.player-header {
+	margin-top: 1rem;
+}
 
+/* --------------------------- END PLAYER PAGE --------------------------- */
 

@@ -32,6 +32,17 @@ h2:after {
 .card-link {
 	color: #212529;
 }
+
+.nav>li>a {
+	color: #fff;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #fff;
+  background-color: #e67e22;
+  border-color: #e67e22;
+}
 /* --------------------------- START HOME PAGE --------------------------- */
 /* ----- PINNED TEAMS ----- */
 .pinned-team {
@@ -270,8 +281,118 @@ fieldset[disabled] .btn-nav.active {
 }
 
 /* --------------------------- PLAYER PAGE --------------------------- */
-.player-header {
+.player-info {
 	margin-top: 1rem;
+	margin-left: .25rem;
+	margin-right: .25rem;
+}
+
+.player-info h2 {
+	color: #555;
+	margin-top: 2rem;
+	
+}
+
+.player-info .card-header {
+	color: white;
+	text-align: center;
+	background-image: linear-gradient(to top, #141c21 0%, rgba(33, 44, 53, 0.9) 100%), url(/img/lacrosse.jpg);
+	background-size: cover;
+    background-position :center;
+    color: white;
+}
+
+.player-info .card-body {
+	padding: 0;
+}
+
+
+.player-info .card-header ul {
+	list-style: none;
+	padding: 0;
+}
+
+.player-info .card-header h4:after {
+	display: block;
+    height: .2rem;
+    background-color: #e67e22;
+    content: " ";
+    width: 5rem;
+    margin: .5rem auto 1rem auto;
+   
+}
+
+.player-pic {
+	width: 7rem;
+	border-radius: 3rem;
+	vertical-align: top;
+}
+
+.player-header-info {
+	display: block;
+	margin-top: 1rem;
+}
+
+.college-info img {
+	width: 6rem;
+	display:block;
+	margin: 0 auto;
+}
+
+.player-info .card-header .player-tabs {
+		margin-top: 2rem;
+}
+
+.player-info .card-body ul {
+	list-style: none;
+	
+}
+
+
+.player-info .col-md-3 {
+	padding: 0;
+	text-align: center;
+	border-right:2px solid #d9d7da;
+}
+
+.player-highlight-section {
+	background-color: #f9f9f9;
+	padding-bottom: .75rem;
+	margin: 0 2rem 2rem 2rem;
+}
+
+.video-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.side-facts {
+	background-color: #f9f9f9;
+}
+
+.player-info .side-facts h4 {
+	margin-top: .25rem;
+	text-align: center;
+	color: #464647;
+}
+
+.side-facts ul {
+	text-align: center;
+	padding: 0;
+	font-size: .9rem;
+}
+
+.side-data {
+	margin-bottom: .9rem;
 }
 
 /* --------------------------- END PLAYER PAGE --------------------------- */

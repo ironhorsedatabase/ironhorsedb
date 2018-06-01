@@ -11,6 +11,60 @@
 	
 }
 
+@media (min-width: 768px) {
+	/* --------------------------- START PLAYER PAGE --------------------------- */
+	
+	/* Heading */
+	
+	.college-info {
+		text-align: center; 
+	}
+	
+	.player-header-info {
+		display: inline-block;	
+	}
+	
+	.player-pic {
+		width: 10rem;
+		vertical-align: top;
+		margin-right: 2rem;
+	}
+	
+	.player-info .card-header{
+		text-align: left;
+	}
+	
+	.player-info .card-header h4:after {
+		display: block;
+	    height: .2rem;
+	    background-color: #e67e22;
+	    content: " ";
+	    width: 5rem;
+	    margin-top: .5rem;
+	    margin-bottom: 1rem;
+	    margin-left: 0;
+	}
+	
+	.player-info .card-header .player-tabs {
+		justify-content: flex-end;
+		margin-top: 0;
+	}
+	
+	
+	/* Begin Content */
+	.player-info {
+		margin-top: 1rem;
+		margin-left: 1.5rem;
+		margin-right: 1.5rem;
+	}
+	
+	.player-info .side-facts h4 {
+		margin-top: 2rem;
+	}
+	
+	/* --------------------------- END PLAYER PAGE --------------------------- */
+	
+}
 @media (min-width: 700px) {
 	/* --------------------------- START HOME PAGE --------------------------- */
 	.pinned-team {padding: 3rem;}
@@ -58,5 +112,6 @@
 	}
 	
 	/* --------------------------- END TEAMS PAGE --------------------------- */
-	
 }
+
+

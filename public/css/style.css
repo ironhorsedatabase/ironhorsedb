@@ -486,7 +486,15 @@ fieldset[disabled] .btn-nav.active {
 	margin-top: 2rem;
 }
 
-
-
-
 /* --------------------------- END TEAM PAGE --------------------------- */
+
+/* --------------------------- ALL PLAYER PAGE --------------------------- */
+.all-players-section h2 {
+	color: #555;
+	margin-top: 2rem;
+}
+
+.all-players-section .card {
+	margin-bottom: 1rem;
+}
+/* --------------------------- END ALL PLAYER PAGE --------------------------- */

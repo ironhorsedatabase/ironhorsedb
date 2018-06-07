@@ -29,4 +29,8 @@ class PagesController extends Controller
     public function getPlayerPage() {
         return view('pages.playerPage');
     }
+    
+    public function getAllPlayersPage() {
+        return view('pages.allPlayersPage');
+    }
 }

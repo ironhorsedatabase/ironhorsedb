@@ -65,17 +65,60 @@
         	 	
         	 </div>
              <div class="tab-pane fade" id="academics" role="tabpanel" aria-labelledby="academics-tab">
-             	Player Transcript: 
-             	Player SAT:
-             	Player PSAT:
-             	Player ACT: 
-             	GPA: 
-             	NCAA Clearinghouse PIN:
+             	<h2>Player Academics</h2>
+             		<div class="row no-gutters">
+             			<div class="col-md-6">
+                     		<ul>
+                     			<li>Player SAT: 2400</li>
+                     				<ul class="test-scores">
+                         				<li>Reading: 800</li>
+                         				<li>Math: 800</li>
+                         				<li>Writing and Language: 800</li>
+                         				<li>Essay: 800</li>
+                     				</ul>
+                     			<li>Player PSAT: 3640</li>
+                     				<ul class="test-scores">
+                         				<li>Reading: 800</li>
+                         				<li>Math: 800</li>
+                         				<li>Writing and Language: 800</li>
+                     				</ul>
+                     		</ul>
+                 		</div>
+                 		<div class="col-md-6">
+                 			<ul>
+                 				<li>Player ACT: 33 </li>
+                     				<ul class="test-scores">
+                         				<li>Reading: 33</li>
+                         				<li>Math: 33</li>
+                         				<li>English: 33</li>
+                         				<li>Science: 33</li>
+                     				</ul>
+                 				<li>Player Transcript:</li>
+                 				<li>GPA: 4.0/4.0</li>
+                     			<li>NCAA Clearinghouse PIN: 324212</li>
+                 			</ul>
+                 		</div>
+             		</div>
          	 </div>
              <div class="tab-pane fade" id="personal" role="tabpanel" aria-labelledby="personal-tab">
-             	Player Email:
-             	Player Phone:
-             	Player Address:
+             	<h2>Contact Info</h2>
+             	<div class="row">
+             		<div class="col-sm-6">
+                     	<ul>
+                     		<li class="text-muted">Address 1</li>
+                     		<li class="address">3424 San Patricio Drive</li>
+                     		<li class="address">Plano TX</li>
+                     		<li class="address">75025</li>
+                     	</ul>
+                 	</div>
+                 	<div class="col-sm-6">
+                     	<ul>
+                     		<li class="text-muted">Contacts</li>
+                     		<li class="address">Player Cell: 214-436-7867</li>
+                     		<li class="address">Player Email: jcp15320@gmail.com</li>
+                     	</ul>
+                 	</div>
+             	</div>
              </div>
         </div>
 	</div>

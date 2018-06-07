@@ -340,7 +340,7 @@ fieldset[disabled] .btn-nav.active {
 }
 
 .player-info .card-header .player-tabs {
-		margin-top: 2rem;
+	margin-top: 2rem;
 }
 
 .player-info .card-body ul {
@@ -352,7 +352,7 @@ fieldset[disabled] .btn-nav.active {
 .player-info .col-md-3 {
 	padding: 0;
 	text-align: center;
-	border-right:2px solid #d9d7da;
+	
 }
 
 .player-highlight-section {
@@ -393,6 +393,16 @@ fieldset[disabled] .btn-nav.active {
 
 .side-data {
 	margin-bottom: .9rem;
+}
+
+.player-info .test-scores {
+	list-style: circle !important;
+	margin-bottom: 1rem;
+}
+
+.player-info .address {
+	font-size: .9rem;
+	line-height: 1.5rem;
 }
 
 /* --------------------------- END PLAYER PAGE --------------------------- */

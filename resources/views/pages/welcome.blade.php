@@ -7,7 +7,7 @@
     <div class= "col-12">
     <h2>Pinned Team</h2>
     	<a class= "card-link" href="/team">
-        	<div class="card bg-light mb-3">
+        	<div class="card bg-light">
               <div class="card-body">
                 <div class="team-titles">
                 	<h3 class="team-name">Iron Horse 2018</h3>

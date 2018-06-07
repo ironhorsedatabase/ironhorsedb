@@ -407,3 +407,86 @@ fieldset[disabled] .btn-nav.active {
 
 /* --------------------------- END PLAYER PAGE --------------------------- */
 
+/* --------------------------- START TEAM PAGE --------------------------- */
+.coaches-section {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/team.jpg);
+	background-size: cover;
+    background-position :center;
+    background-attachment: fixed;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.team-page-team-name {
+	color: #fff;
+	text-align: left;
+	font-weight: 300;
+	padding-left:1rem;
+	padding-top: 1rem;
+}
+
+.team-page-team-name:after {
+	display: block;
+    height: .1rem;
+    background-color: #fff;
+    content: " ";
+    width: 5rem;
+    margin: .5rem auto 1rem 0;
+}
+
+.team-page h2 {
+	text-align: center;
+	margin-bottom: 1rem;
+	font-weight: 200;
+	text-transform: uppercase;
+	color: #555;
+}
+
+.team-page h2:after {
+	display: block;
+	height: .1rem;
+	background-color: #EB9532;
+	content: " ";
+	width: 5rem;
+	margin: 0 auto;
+}
+
+.team-page img {
+	height: 15rem;
+}
+
+.team-page .card {
+	margin: .5rem;
+}
+
+.coaches-section h2 {
+	color: #fff;
+}
+
+.coaches-section .card {
+	width: 16rem;
+}
+
+.upcoming-tournaments-section {
+	background-color: #f9f9f9;
+	margin: 0 -15px;
+}
+
+.upcoming-tournaments-section h2 {
+	padding-top: 2rem;
+}
+
+.upcoming-tournaments-section ul {
+	list-style: none;
+	padding-left: .5rem;
+	line-height: 2rem;
+}
+
+.roster-section h2 {
+	margin-top: 2rem;
+}
+
+
+
+
+/* --------------------------- END TEAM PAGE --------------------------- */

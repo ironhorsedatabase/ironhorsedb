@@ -6,28 +6,28 @@
         <h2>Coaches</h2>
         <div class="row no-gutters">
         	<div class="col-md-4">
-            	<div class="card bg-light mx-auto">
+            	<a class="card-link" href="/player"><div class="card bg-light mx-auto">
             		<img class="card-img-top" src="{{ asset('img/default-user.png') }}" alt="Card image cap">
                     <div class="card-body">
                        <p class="card-text">Coach Name</p>
                     </div>
-            	</div>
+            	</div></a>
         	</div>
         	<div class="col-md-4">
-            	<div class="card bg-light mx-auto">
+            	<a class="card-link" href="/player"><div class="card bg-light mx-auto">
             		<img class="card-img-top" src="{{ asset('img/default-user.png') }}" alt="Card image cap">
                     <div class="card-body">
                        <p class="card-text">Coach Name</p>
                     </div>
-            	</div>
+            	</div></a>
         	</div>
         	<div class="col-md-4">
-            	<div class="card bg-light mx-auto">
+            	<a class="card-link" href="/player"><div class="card bg-light mx-auto">
             		<img class="card-img-top" src="{{ asset('img/default-user.png') }}" alt="Card image cap">
                     <div class="card-body">
                        <p class="card-text">Coach Name</p>
                     </div>
-            	</div>
+            	</div></a>
         	</div>
     	</div>
     </div>

@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreatePlayerTable extends Migration
+class CreatePlayersTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,8 @@ class CreatePlayerTable extends Migration
      */
     public function up()
     {
-        Schema::create('player', function (Blueprint $table) {
-            $table->increments('PlayerID');
+        Schema::create('players', function (Blueprint $table) {
+            $table->increments('id');
             $table->timestamps();
             $table->string('PlayerFName');
             $table->string('PlayerLName');

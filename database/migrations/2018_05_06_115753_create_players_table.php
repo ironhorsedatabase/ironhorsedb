@@ -18,7 +18,7 @@ class CreatePlayersTable extends Migration
             $table->timestamps();
             $table->string('PlayerFName');
             $table->string('PlayerLName');
-            $table->integer('PlayerPhone');
+            $table->string('PlayerPhone');
             $table->string('PlayerEmail');
             $table->string('PlayerTwitter')->nullable();
             $table->integer('PlayerHSGradYear');
@@ -30,6 +30,16 @@ class CreatePlayersTable extends Migration
             $table->string('PlayerSpringTeam');
             $table->string('PlayerSchool');
             $table->string('PlayerGrade');
+            $table->integer('playerSAT')->nullable();
+            $table->integer('playerACT')->nullable();
+            $table->integer('playerPSAT')->nullable();
+            $table->integer('playerGPA')->nullable();
+            $table->integer('ncaaClearinghousePIN')->nullable();
+            $table->integer('playerWeight')->nullable();
+            $table->integer('playerHeight')->nullable();
+            $table->string('playerTranscript')->nullable();
+            $table->string('playerHighlightVideo')->nullable();
+            $table->string('playerPhoto')->nullable();
         });
     }
 
@@ -40,6 +50,6 @@ class CreatePlayersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('player');
+        Schema::dropIfExists('players');
     }
 }

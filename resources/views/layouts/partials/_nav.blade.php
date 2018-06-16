@@ -13,7 +13,7 @@
         <a class="nav-link" href="/teams">Teams</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/allplayers">Players</a>
+        <a class="nav-link" href="{{route('players.index')}}">Players</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Tournaments</a>

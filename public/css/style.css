@@ -493,8 +493,7 @@ fieldset[disabled] .btn-nav.active {
 	color: #555;
 	margin-top: 2rem;
 }
-
-.all-players-section .card {
-	margin-bottom: 1rem;
+.card-columns {
+	column-count: 4;
 }
 /* --------------------------- END ALL PLAYER PAGE --------------------------- */

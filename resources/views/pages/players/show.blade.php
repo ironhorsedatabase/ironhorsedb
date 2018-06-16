@@ -1,10 +1,3 @@
-/**
- * Created by PhpStorm.
- * User: chris
- * Date: 6/14/18
- * Time: 1:15 PM
- */
-
 @extends('layouts.main')
 @section('content')
     <div class="card player-info">
@@ -13,17 +6,17 @@
                 <div class="col-md-9">
                     <img class="player-pic" src="{{ asset('img/default-user.png') }}" alt="Player Image">
                     <div class="player-header-info">
-                        <h4>{{ $player->PlayerFName }} Surran</h4>
+                        <h4>{{ $player->PlayerFName}} {{$player->PlayerLName}}</h4>
                         <ul>
-                            <li>Position: Defense </li>
-                            <li>Grad Year: 2017 </li>
-                            <li>School: Jesuit College Prep </li>
+                            <li>Position: {{ $player->PlayerPosition }} </li>
+                            <li>Grad Year: {{ $player->PlayerHSGradYear }} </li>
+                            <li>School: {{ $player->PlayerSchool }} </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="college-info">
-                        Status: Uncommitted
+                        Status: {{\App\Http\Controllers\PlayerController::checkIfNull($player->PlayerCommitted, "Uncommitted")}}
                         <img src="{{ asset('img/IronHorseLacrosse_4C.png') }}" alt="College pic">
                     </div>
                 </div>
@@ -49,7 +42,7 @@
                         <div class="col-md-9 order-md-2">
                             <div class="player-highlight-section">
                                 <h2>Player Highlight Video</h2>
-                                <div class="video-responsive"><iframe src="https://www.youtube.com/embed/T4HwEkqVI1Y" frameborder="0" class="highlight-video"></iframe></div>
+                                <div class="video-responsive"><iframe src=" {{\App\Http\Controllers\PlayerController::checkIfNull($player->playerHighlightVideo, "https://www.youtube.com/embed/5HJXhvX8XuE")}} " frameborder="0" class="highlight-video"></iframe></div>
                             </div>
                         </div>
 
@@ -57,15 +50,15 @@
                             <h4>General Info</h4>
                             <ul>
                                 <li class="text-muted">Player Spring Team</li>
-                                <li class="font-weight-light side-data">Jesuit College Prep</li>
+                                <li class="font-weight-light side-data">{{ $player->PlayerSpringTeam }}</li>
                                 <li class="text-muted">Player Height</li>
-                                <li class="font-weight-light side-data">6'1"</li>
+                                <li class="font-weight-light side-data"> {{\App\Http\Controllers\PlayerController::getHumanHeight($player->playerHeight) }}</li>
                                 <li class="text-muted">Player Weight</li>
-                                <li class="font-weight-light side-data">200lbs</li>
+                                <li class="font-weight-light side-data">{{$player->playerWeight}}lbs</li>
                                 <li class="text-muted">Lacrosse Honors</li>
                                 <li class="font-weight-light side-data">N/A</li>
                                 <li class="text-muted">Player Twitter</li>
-                                <li class="font-weight-light side-data">@JezLax2</li>
+                                <li class="font-weight-light side-data">{{\App\Http\Controllers\PlayerController::checkIfNull($player->PlayerTwitter)}}</li>
                             </ul>
                         </div>
                     </div>
@@ -76,33 +69,33 @@
                     <div class="row no-gutters">
                         <div class="col-md-6">
                             <ul>
-                                <li>Player SAT: 2400</li>
+                                <li>Player SAT: {{\App\Http\Controllers\PlayerController::checkIfNull($player->playerSAT)}}</li>
                                 <ul class="test-scores">
-                                    <li>Reading: 800</li>
-                                    <li>Math: 800</li>
-                                    <li>Writing and Language: 800</li>
-                                    <li>Essay: 800</li>
+                                    <li>Reading: N/A</li>
+                                    <li>Math: N/A</li>
+                                    <li>Writing and Language: N/A</li>
+                                    <li>Essay: N/A</li>
                                 </ul>
-                                <li>Player PSAT: 3640</li>
+                                <li>Player PSAT: {{\App\Http\Controllers\PlayerController::checkIfNull($player->playerPSAT)}}</li>
                                 <ul class="test-scores">
-                                    <li>Reading: 800</li>
-                                    <li>Math: 800</li>
-                                    <li>Writing and Language: 800</li>
+                                    <li>Reading: N/A</li>
+                                    <li>Math: N/A</li>
+                                    <li>Writing and Language: N/A</li>
                                 </ul>
                             </ul>
                         </div>
                         <div class="col-md-6">
                             <ul>
-                                <li>Player ACT: 33 </li>
+                                <li>Player ACT: {{\App\Http\Controllers\PlayerController::checkIfNull($player->playerACT)}} </li>
                                 <ul class="test-scores">
-                                    <li>Reading: 33</li>
-                                    <li>Math: 33</li>
-                                    <li>English: 33</li>
-                                    <li>Science: 33</li>
+                                    <li>Reading: N/A</li>
+                                    <li>Math: N/A</li>
+                                    <li>English: N/A</li>
+                                    <li>Science: N/A</li>
                                 </ul>
-                                <li>Player Transcript:</li>
-                                <li>GPA: 4.0/4.0</li>
-                                <li>NCAA Clearinghouse PIN: 324212</li>
+                                <li>Player Transcript: N/A</li>
+                                <li>GPA: {{\App\Http\Controllers\PlayerController::checkIfNull($player->playerGPA)}} /4.0</li>
+                                <li>NCAA Clearinghouse PIN: {{\App\Http\Controllers\PlayerController::checkIfNull($player->ncaaClearinghousePin)}}</li>
                             </ul>
                         </div>
                     </div>
@@ -113,16 +106,16 @@
                         <div class="col-sm-6">
                             <ul>
                                 <li class="text-muted">Address 1</li>
-                                <li class="address">3424 San Patricio Drive</li>
-                                <li class="address">Plano TX</li>
-                                <li class="address">75025</li>
+                                <li class="address">{{$player->PlayerStreet}}</li>
+                                <li class="address">{{$player->PlayerCity}} {{$player->PlayerState}}</li>
+                                <li class="address">{{$player->PlayerZip}}</li>
                             </ul>
                         </div>
                         <div class="col-sm-6">
                             <ul>
                                 <li class="text-muted">Contacts</li>
-                                <li class="address">Player Cell: 214-436-7867</li>
-                                <li class="address">Player Email: jcp15320@gmail.com</li>
+                                <li class="address">Player Phone: {{$player->PlayerPhone}}</li>
+                                <li class="address">Player Email: {{$player->PlayerEmail}}</li>
                             </ul>
                         </div>
                     </div>

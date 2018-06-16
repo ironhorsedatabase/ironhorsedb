@@ -20,7 +20,7 @@ class CreatePlayersTable extends Migration
             $table->string('PlayerLName');
             $table->string('PlayerPhone');
             $table->string('PlayerEmail');
-            $table->string('PlayerTwitter')->nullable();
+            $table->string('PlayerTwitter')->nullable()->default("N/A");
             $table->integer('PlayerHSGradYear');
             $table->string('PlayerStreet');
             $table->char('PlayerZip', 5);
@@ -30,6 +30,7 @@ class CreatePlayersTable extends Migration
             $table->string('PlayerSpringTeam');
             $table->string('PlayerSchool');
             $table->string('PlayerGrade');
+            $table->string('PlayerCommitted')->nullable();
             $table->integer('playerSAT')->nullable();
             $table->integer('playerACT')->nullable();
             $table->integer('playerPSAT')->nullable();
@@ -40,6 +41,7 @@ class CreatePlayersTable extends Migration
             $table->string('playerTranscript')->nullable();
             $table->string('playerHighlightVideo')->nullable();
             $table->string('playerPhoto')->nullable();
+            $table->integer("PlayerJerseyNumber")->nullable();
         });
     }
 

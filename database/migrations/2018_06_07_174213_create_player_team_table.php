@@ -16,9 +16,9 @@ class CreatePlayerTeamTable extends Migration
         Schema::create('player_team', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('player_id')->unsigned();
-            $table->foreign('player_id')->references('id')->on('teams');
+            $table->foreign('player_id')->references('id')->on('players');
             $table->integer('team_id')->unsigned();
-            $table->foreign('team_id')->references('id')->on('players');
+            $table->foreign('team_id')->references('id')->on('teams');
         });
     }
 

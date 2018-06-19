@@ -11,7 +11,7 @@
     </div>
     <h2>All Players</h2>
 
-    <div class="card-columns">
+    <div class="card-column">
         @foreach ($players as $player)
             <div class="card bg-light">
                 <a class="card-link" href="{{route('players.show', $player->id)}}">

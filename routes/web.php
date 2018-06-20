@@ -22,3 +22,4 @@ Route::get('/players', 'PagesController@getPlayerPage');
 Route::get('/allplayers', 'PagesController@getAllPlayersPage');
 Route::resource('players', 'PlayerController');
 Route::resource('teams', 'TeamController');
+Route::resource('tournaments', 'TournamentController');
